@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>David Ventura Serrano</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico"/>
+</head>
+<body>
+    
+    <h3>Rellena tu CV</h3>
+ 
+    <form name="ejercicio15" action="" method="post">
+     
+    <fieldset>
+      <legend>Datos personales</legend>
+     
+      <label for="provincia">Provincia</label> <br/>
+      <select id="provincia" name="provincia">
+        <option value="" selected="selected">- selecciona -</option>
+        <option value="cordoba">Córdoba</option>
+        <option value="malaga">Málaga</option>
+        <option value="jaen">Jaen</option>
+        <option value="almeria">Almería</option>
+        <option value="huelva">Huelva</option>
+        <option value="sevilla">Sevilla</option>
+        <option value="cadiz">Cádiz</option>
+        <option value="granada">Granada</option>
+      </select>
+     
+      <br/><br/>
+     
+      <label for="fecha_dia">Fecha de nacimiento</label> <br/>
+      <input type="text" size="3" maxlength="2" id="fecha_dia" name="fecha_dia" />
+      de
+      <select id="fecha_mes" name="fecha_mes">
+        <option value="enero">Enero</option>
+        <option value="febrero">Febrero</option>
+        <option value="marzo">Marzo</option>
+        <option value=abril>Abril</option>
+        <option value="mayo">Mayo</option>
+        <option value="junio">Junio</option>
+        <option value="julio">Julio</option>
+        <option value="agosto">Agosto</option>
+        <option value="septiembre">Septiembre</option>
+        <option value="octubre">Octubre</option>
+        <option value="noviembre">Noviembre</option>
+        <option value="diciembre">Diciembre</option>
+      </select>
+      de
+      <input type="text" size="5" maxlength="4" id="fecha_ano" name="fecha_ano" />
+     
+      <br/><br/>
+     
+      <label for="temasDeInteres">Temas de interés</label> <br/>
+      <select multiple="multiple" size="5" id="temasDeInteres" name="temasDeInteres">
+        <option value="ABD">Administración de bases de datos</option>
+        <option value="AP">Análisis y programación</option>
+        <option value="Arq">Arquitectura</option>
+        <option value="Calidad">Calidad</option>
+        <option value="ERP,CRM,BI">ERP, CRM, Business Intelligence</option>
+      </select>
+    </fieldset>
+     
+    </form>
+
+</body>
+</html>
